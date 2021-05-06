@@ -1,0 +1,190 @@
+body
+{
+    display:flex; 
+    justify-content:center;
+    align-items:center; 
+    left: 0px;
+    top: 0px;
+    border-radius: 100px;
+  background-color:gray ;
+}
+.mainblock
+{overflow: hidden;
+    height:1560px ;
+    width:1360px;
+    background-color: #FFFFFF;
+}
+.void{width:156px;}
+.title
+{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;  
+    align-items:center; 
+    Height:74px;
+    font-family: SB Sans Display;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height, or 147% */
+
+letter-spacing: 0.01em;
+
+/* Grey */
+
+color: #979797;
+    padding-left:68px ;
+    padding-right: 68px;
+}
+.titleblock{width:304px ;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;  
+    align-items:center; 
+}
+.imgbox1
+{
+    width:390px;
+    border: 0px double black;
+}
+.date
+{  
+    margin: 0px 69px 0px 69px; 
+    flex-wrap:wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 0px;
+    animation: spawn_animation 1.5s;
+}
+
+@keyframes spawn_animation {
+    0% {
+        opacity: 0%;
+        transform: translateY(240px);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+.imgbox
+{
+    margin-bottom: 64px;
+}
+.imgbox:hover
+{
+    border-radius: 12px;
+    box-shadow: 0px 0px 30px rgba(73, 2, 95, 0.5);
+}
+h2
+{
+    font-family: SB Sans Display;
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 64px;
+color: #333F48;
+    margin-left: 68px;
+    margin-top: 40px;
+    margin-bottom: 68px;
+}
+.for
+{
+    height:1124px ;
+    width:1360px ;
+}
+.d1{width:390px;}
+.blocks
+{
+height:332px ;
+width:1360px;
+padding-top: 30px;
+padding-left:30px;
+background: #F3F4F5;
+}
+.words
+{
+    font-family: SB Sans Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+/* Dark blue */
+
+color: #333F48;
+opacity: 0.5;
+width: 312px;
+height: 150px;
+
+display: flex;
+    flex-direction:row;
+    justify-content: space-between; 
+}
+.b1{ 
+    font-family: SB Sans Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+/* Dark blue */
+
+color: #333F48;
+opacity: 0.5;
+    width: 613px;
+    margin-top:104px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.b2
+{
+    width: 391px;
+height: 208px;
+margin:-278px  0px 0px 900px;
+}
+.b3{
+    width: 391px;
+height: 20px;
+margin:39px  0px 0px 900px;
+}
+.number
+{
+    font-family: SB Sans Display;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+
+
+/* Dark blue */
+margin-bottom:10px ;
+color: #333F48;
+opacity: 0.5;
+}
+.text
+{
+    font-family: SB Sans Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+
+/* Dark blue */
+
+color: #333F48;
+opacity: 0.5;
+margin-bottom:20px ;
+}
